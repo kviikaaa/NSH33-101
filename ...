@@ -6,11 +6,26 @@ basic.show_leds("""
 . # . # .
 """)
 basic.show_leds("""
+. . . . .
+. . # . #
+. . # # #
+. . . . #
+. . # # .
+""")
+basic.show_leds("""
 . . # . .
 . . # . .
 . # # # .
 . . # . .
 . . # # #
+""")
+basic.show_leds("""
+....
+. # # # .
+. # . # .
+. # # # .
+. # . . .
+. # . . .
 """)
 basic.clear_screen()
 basic.pause(100)
@@ -86,6 +101,14 @@ basic.show_leds("""
 . . # . .
 . # # # .
 . . # . .
+. . # # #
+""")
+basic.show_leds("""
+. . . . .
+. . . . .
+. . # # #
+. . # . .
+. . . .
 . . # # #
 """)
 basic.show_leds("""
